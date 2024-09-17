@@ -51,3 +51,28 @@ p {
 .footer a {
     color: hsl(228, 45%, 44%);
 }
+
+@media all and (max-width:800px) {
+    main {
+        border-radius: 15px;
+        padding: 50px;
+        max-width: 450px;
+    }
+
+    .cadre-image img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+
+}
